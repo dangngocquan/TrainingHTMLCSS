@@ -16,7 +16,7 @@
     background-color: rgb(32, 158, 53);
 }
 
-#div2:active {
+#div2:hover {
     background-color: blue;
 }
 
