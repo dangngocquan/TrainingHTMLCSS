@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Seclectors</title>
+        <meta charset="utf-8">
+    </head>
+
+    <link rel="stylesheet" href="seclector.css">
+    <body>
+        <hr>
+        <div>
+            <h1>.class</h1>
+            <h2>Example: .classOne : Chọn tất cả các thẻ có class = "classOne"</h2>
+            <h3 class="classOne">h3 with class="classOne"</h3>
+            <h3>h3 without class</h3>
+            <h3 class="classOne">h3 with class="classOne"</h3>
+            <h3>h3 without class</h3>
+            <h3 class="classOne">h3 with class="classOne"</h3>
+        </div>
+        <hr>
+        <div>
+            <h1>.class1.class2</h1>
+            <h2>Example: .classOne.classTwo : Chọn tất cả các thẻ có class="classOne" và class= "classTwo"</h2>
+            <h3 class="classTwo">h3 with class = "classTwo"</h3>
+            <h3 class="classOne classTwo">h3 with class = "classOne" and class = "classTwo"</h3>
+            <h3 class="classOne">h3 with class="classOne"</h3>
+            <h3 class="classOne classTwo">h3 with class = "classOne" and class = "classTwo"</h3>
+            <h3 class="classTwo">h3 with class = "classTwo"</h3>
+            <h3 class="classOne">h3 with class="classOne"</h3>
+            <h3 class="classOne classTwo">h3 with class = "classOne" and class = "classTwo"</h3>
+        </div>
+        <hr>
+        <div>
+            <h1>.class1 .class2</h1>
+            <h2>Example: .classOne .classTwo : Chọn tất cả các thẻ có class = "classTwo" và là con của một phần tử có class = "classOne"</h2>
+            <div class="classOne">
+                Div có class = "classOne"
+                <br>
+                <div class="classTwo">div có class = "classTwo" và nằm trong div có class = "classOne"</div>
+                <div>div không có class, nằm trong div có class = "classOne"</div>
+            </div>
+        </div>
+
+    </body>
+</html>

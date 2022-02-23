@@ -1,0 +1,25 @@
+#div1 {
+    color: red;
+    width: 50vw;
+    height: 25vh;
+    background-color: grey;
+}
+
+#div1:hover {
+    background-color: red;
+}
+
+#div2 {
+    color: red;
+    width: 50vw;
+    height: 25vh;
+    background-color: rgb(32, 158, 53);
+}
+
+#div2:active {
+    background-color: blue;
+}
+
+#a1:hover {
+    color: blanchedalmond;
+}

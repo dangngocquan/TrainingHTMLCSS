@@ -1,0 +1,13 @@
+#first_heading {
+    color: red;
+    font-size: 40px;
+}
+
+#second_heading {
+    color: blue;
+}
+
+.first_class {
+    color: brown;
+    font-size: 25px;
+}
