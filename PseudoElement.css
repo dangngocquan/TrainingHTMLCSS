@@ -1,0 +1,49 @@
+#div1 {
+    width: 30vw;
+    height: 20vh;
+    background-color: rgb(171, 138, 202);
+
+}
+
+#div1:hover {
+    width: 50vw;
+    height: 40vh;
+    background: rgb(177, 120, 120);
+}
+
+#div1::before {
+    font-size: 25px;
+    content: "div1::before";
+    display: block;
+    width: 20vw;
+    height: 10vh;
+    background-color: rgb(194, 159, 94);
+}
+
+#div1::after {
+    font-size: 25px;
+    content: "div1::before";
+    display: block;
+    width: 20vw;
+    height: 10vh;
+    background-color: rgb(85, 155, 75);
+}
+
+#div2 {
+    color: rgb(228, 149, 149);
+}
+
+#div2::first-letter {
+    font-size: 50px;
+}
+
+#div2 h2::selection {
+    background-color: aquamarine;
+    color: rgb(23, 102, 172);
+}
+
+#div2::first-line {
+    color: rgb(230, 31, 196);
+}
+
+
